@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": { "@/*": ["./src/*"] }
+  },
+  "include": ["src"],
+  "exclude": [
+    "src/task0-closure-calc",
+    "src/task2-custom-filter",
+    "src/task3-keys-n-props",
+    "src/task4-no-more-jokes",
+    "src/task5-minimal-cvs",
+    "src/task7-hit-or-run",
+    "src/task8-case-converter",
+    "src/task9-antispam",
+    "src/task10-interview-task",
+    "src/task11-star-task"
+  ]
+}
